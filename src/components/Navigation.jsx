@@ -17,7 +17,7 @@ const Navigation = () => (
     <Link as={RouterLink} to="/contact" p={2}>
       Contact
     </Link>
-    <Link as={RouterLink} to="/login" p={2}>
+    <Link as={RouterLink} to="/login" p={2} bg="yellow.300" borderRadius="md">
       Log In
     </Link>
     <Link as={RouterLink} to="/signup" p={2}>
