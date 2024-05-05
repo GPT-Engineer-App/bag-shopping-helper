@@ -51,7 +51,7 @@ const Footer = () => (
   <Flex as="footer" bg="gray.700" p={4} color="white" justify="space-between" align="center">
     <Box>
       <Heading as="h3" size="lg">
-        Contact Us
+        contact us
       </Heading>
       <Text>Email: m.marcelo@gmail.com</Text>
       <Text>Phone: (+63) 964 5235 342</Text>
@@ -60,10 +60,10 @@ const Footer = () => (
       <Heading as="h3" size="lg">
         Follow Us
       </Heading>
-      <Link href="https://www.facebook.com/profile.php?id=100063789082776" isExternal>
+      <Link href="https://www.facebook.com/profile.php?id=100063789082776" isExternal mr={2}>
         Facebook
       </Link>
-      <Link href="https://www.instagram.com/realcoleworld/" isExternal>
+      <Link href="https://www.instagram.com/realcoleworld/" isExternal ml={2}>
         Instagram
       </Link>
     </Box>
