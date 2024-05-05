@@ -28,8 +28,8 @@ const products = [
   },
 ];
 
-const Header = () => (
-  <Flex as="header" bg="blue.500" p={4} color="white" align="center">
+const Navigation = () => (
+  <Flex as="nav" bg="blue.500" p={4} color="white" align="center">
     <Image src="logo.png" boxSize="50px" />
     <Spacer />
     <Link href="#" p={2}>
@@ -72,7 +72,7 @@ const Footer = () => (
 
 const Index = () => (
   <Container maxW="container.xl" py={10}>
-    <Header />
+    <Navigation />
     <VStack spacing={8}>
       <Heading as="h1" size="xl">
         Bag Shop
